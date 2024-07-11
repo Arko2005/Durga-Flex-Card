@@ -98,6 +98,27 @@ input:checked + label .description{
 .card[for ="c6"]{
     background-image: url(png8.jpg);
 }
+@media screen and (max-width: 1023px) {
+    .container{
+        width: 100%;
+        text-align: center;
+    }
+    .card{
+        width: 160px;
+        height: 200px;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .container{
+        width: 100%;
+        text-align: center;
+    }
+    .card{
+        width: 100px;
+        height: 150px;
+    }
+}
 
 
 
