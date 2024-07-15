@@ -16,7 +16,7 @@ body {
     justify-content: center;
 }
 .container{
-    height: 400px;
+    height: 100%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: start;
@@ -104,8 +104,8 @@ input:checked + label .description{
         text-align: center;
     }
     .card{
-        width: 160px;
-        height: 200px;
+        width: 520px;
+        height: 560px;
     }
 
 }
