@@ -98,7 +98,7 @@ input:checked + label .description{
 .card[for ="c6"]{
     background-image: url(png8.jpg);
 }
-@media screen and (max-width: 1023px) {
+/* @media screen and (max-width: 1023px) {
     .container{
         width: 100%;
         text-align: center;
@@ -108,7 +108,7 @@ input:checked + label .description{
         height: 560px;
     }
 
-}
+} */
 @media screen and (max-width: 767px) {
     .container{
         width: 100%;
@@ -117,6 +117,16 @@ input:checked + label .description{
     .card{
         width: 100px;
         height: 150px;
+    }
+}
+@media screen and (max-width: 1023px) and (min-width: 601px) {
+    .container {
+        width: 100%;
+        text-align: center;
+    }
+    .card {
+        width: 520px;
+        height: 560px;
     }
 }
 
